@@ -20,48 +20,9 @@
 	</classpathentry>
 	<classpathentry kind="var" path="M2_REPO/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar" sourcepath="M2_REPO/com/sun/jersey/jersey-core/1.8/jersey-core-1.8-sources.jar"/>
 	<classpathentry kind="var" path="ECLIPSE_HOME"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_181">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ritesht/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar" sourcepath="C:/Users/ritesht/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="org.eclipse.jst.component.archivename" value="httpcore-4.4.9.jar"/>
-			<attribute name="maven.groupId" value="org.apache.httpcomponents"/>
-			<attribute name="maven.artifactId" value="httpcore"/>
-			<attribute name="maven.version" value="4.4.9"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ritesht/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar" sourcepath="C:/Users/ritesht/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="org.eclipse.jst.component.archivename" value="httpclient-4.5.5.jar"/>
-			<attribute name="maven.groupId" value="org.apache.httpcomponents"/>
-			<attribute name="maven.artifactId" value="httpclient"/>
-			<attribute name="maven.version" value="4.5.5"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ritesht/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar" sourcepath="C:/Users/ritesht/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
-			<attribute name="maven.groupId" value="javax.servlet"/>
-			<attribute name="maven.artifactId" value="javax.servlet-api"/>
-			<attribute name="maven.version" value="3.1.0"/>
-			<attribute name="maven.scope" value="provided"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/ritesht/.m2/repository/org/json/json/20170516/json-20170516.jar" sourcepath="C:/Users/ritesht/.m2/repository/org/json/json/20170516/json-20170516-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.json"/>
-			<attribute name="maven.artifactId" value="json"/>
-			<attribute name="maven.version" value="20170516"/>
-			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>

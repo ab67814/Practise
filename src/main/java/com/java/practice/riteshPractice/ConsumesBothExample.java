@@ -1,4 +1,4 @@
-package com.ritesh.practice.riteshPractice;
+package com.java.practice.riteshPractice;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.PathVariable;

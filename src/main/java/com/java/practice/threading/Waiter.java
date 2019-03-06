@@ -1,4 +1,4 @@
-package com.ritesh.practice.threading;
+package com.java.practice.threading;
 
 public class Waiter implements Runnable {
 

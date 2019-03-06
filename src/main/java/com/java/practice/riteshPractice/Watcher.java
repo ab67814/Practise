@@ -1,4 +1,4 @@
-package com.ritesh.practice.riteshPractice;
+package com.java.practice.riteshPractice;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;

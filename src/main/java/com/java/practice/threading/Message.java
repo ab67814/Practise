@@ -1,4 +1,4 @@
-package com.ritesh.practice.threading;
+package com.java.practice.threading;
 
 public class Message {
 	private String msg;

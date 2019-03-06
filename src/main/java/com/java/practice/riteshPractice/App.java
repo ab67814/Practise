@@ -1,4 +1,4 @@
-package com.ritesh.practice.riteshPractice;
+package com.java.practice.riteshPractice;
 
 import java.io.BufferedReader;
 import java.io.IOException;

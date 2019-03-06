@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ritesh.practice.innerClass;
+package com.java.practice.innerClass;
 
 /**
  * @author ritesht

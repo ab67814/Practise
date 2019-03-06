@@ -1,4 +1,4 @@
-package com.ritesh.practice.collections;
+package com.java.practice.collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
