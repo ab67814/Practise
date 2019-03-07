@@ -23,7 +23,11 @@ public class SemaPhoreExample {
 			if (this.getName().equals("Producer")) {
 				while(true) {
 					while (nameList.size()==capacity) {
-						sem.release();
+						try {
+							Thread.sleep(0);
+						} catch (InterruptedException e) {
+							e.printStackTrace();
+						}
 					}
 					try {
 						sem.acquire();
@@ -42,8 +46,18 @@ public class SemaPhoreExample {
 			} else if(this.getName().equals("Consumer")) {
 				while(true) {
 					while (nameList.size()==0) {
-						sem.release();
+						try {
+							Thread.sleep(0);
+						} catch (InterruptedException e) {
+							e.printStackTrace();
+						}
 					}
+					try {
+						sem.acquire();
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+					
 					nameList.remove(0);
 					System.out.println("removed"+nameList.size());
 					sem.release();
