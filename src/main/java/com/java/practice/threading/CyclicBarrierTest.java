@@ -46,6 +46,8 @@ public class CyclicBarrierTest implements Runnable {
           
         // barrier breaks as the number of thread waiting for the barrier 
         // at this point = 3 
+    	System.out.println("waiting cyclic "+ CyclicBarrierTest.newBarrier.getNumberWaiting());
+
         System.out.println("Sum of product and sum = " + (Computation1.product +  
         Computation2.sum)); 
                   

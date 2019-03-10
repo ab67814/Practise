@@ -14,7 +14,10 @@ class Computation2 implements Runnable
 	        sum = 10 + 20; 
 	        try
 	        { 
-	            CyclicBarrierTest.newBarrier.await(3000, TimeUnit.MILLISECONDS); 
+	        	System.out.println("waiting comp 2"+ CyclicBarrierTest.newBarrier.getNumberWaiting());
+	           // CyclicBarrierTest.newBarrier.await(3000, TimeUnit.MILLISECONDS); 
+	            CyclicBarrierTest.newBarrier.await(); 
+
 	          
 	            // number of parties waiting at the barrier 
 	            System.out.println("Number of parties waiting at the barrier "+ 
@@ -24,10 +27,10 @@ class Computation2 implements Runnable
 	        { 
 	            e.printStackTrace(); 
 	        }  
-	        catch (TimeoutException e)  
+	        /*catch (TimeoutException e)  
 	        { 
 	            e.printStackTrace(); 
-	        } 
+	        } */
 	    } 
 	} 
 
