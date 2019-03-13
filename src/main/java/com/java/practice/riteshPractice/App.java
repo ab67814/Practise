@@ -12,14 +12,13 @@ import org.jose4j.base64url.internal.apache.commons.codec.binary.Base64;
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-    	loopArgument("rit","dinesh","","mahesh");
+public class App {
+	public static void main(String[] args) {
+		loopArgument("rit", "dinesh", "", "mahesh");
 		// SSLContext sc;
 		String url = "http://pkmxpcnvnbp8.cloud.wavemakeronline.com/Dublin_Agent_3_0/services/Dublin/StateMaster?role=Agent";
 		try {
+			processSwitchOperation();
 			// sc = getSslContext();
 			URL address = new URL(url);
 			URLConnection conn = address.openConnection();
@@ -52,8 +51,7 @@ public class App
 			while ((line = rd.readLine()) != null) {
 				result.append(line);
 			}
-			
-			
+
 			System.out.println("printing the values =====>");
 
 			if (result != null) {
@@ -64,15 +62,27 @@ public class App
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
 
 	}
-    
-    private static void loopArgument (String... args) {
-    	for (String arg :args) {
-    		System.out.println(arg);
-    	}
-    	
-    }
-    
+
+	private static void loopArgument(String... args) {
+		for (String arg : args) {
+			System.out.println(arg);
+		}
+	}
+
+	private static void processSwitchOperation() {
+		Integer n = 10;
+		switch (n) {
+		case 10:
+			System.out.println("in 10");
+			break;
+
+		default:
+			break;
+		}
+		/*for (;;) {
+			System.out.println("hi");
+		}*/
+	}
 }
