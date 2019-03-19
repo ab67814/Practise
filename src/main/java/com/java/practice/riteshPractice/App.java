@@ -13,7 +13,7 @@ import org.jose4j.base64url.internal.apache.commons.codec.binary.Base64;
  *
  */
 public class App {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
 		loopArgument("rit", "dinesh", "", "mahesh");
 		// SSLContext sc;
 		String url = "http://pkmxpcnvnbp8.cloud.wavemakeronline.com/Dublin_Agent_3_0/services/Dublin/StateMaster?role=Agent";
@@ -71,7 +71,8 @@ public class App {
 		}
 	}
 
-	private static void processSwitchOperation() {
+	private static void processSwitchOperation() throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+			App forName = (App) Class.forName("com.java.practice.riteshPractice.App").newInstance();
 		Integer n = 10;
 		switch (n) {
 		case 10:
@@ -81,8 +82,16 @@ public class App {
 		default:
 			break;
 		}
-		/*for (;;) {
-			System.out.println("hi");
-		}*/
+		int i = 0;
+		for (;;) {
+			i++;
+			if (i==4) {
+				continue;
+			}
+			if (i==5) {
+				break;//to break the loop
+			}
+			System.out.println(+i);
+		}
 	}
 }

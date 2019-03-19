@@ -5,13 +5,20 @@ public class Insurance {
 	private String name;
 	private String type;
 
+	public final static String test = "india";
+	
+	public Insurance() {
+		System.out.println("this constructor");
+	}
+
 	public Insurance(String name, String type) {
+		this();
 		this.name = name;
 		this.type = type;
 	}
 
 	public String getName() {
-				return name;
+		return name;
 	}
 
 	public void setName(String name) {
