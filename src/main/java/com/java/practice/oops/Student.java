@@ -1,6 +1,6 @@
 package com.java.practice.oops;
 
-public class Student {
+public class Student extends Instrument<Student>{
 	
 	
 	private String stand;
