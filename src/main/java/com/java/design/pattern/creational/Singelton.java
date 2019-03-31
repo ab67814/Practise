@@ -1,8 +1,8 @@
-package com.java.design.pattern;
+package com.java.design.pattern.creational;
 
 import java.io.Serializable;
 
-public class Singelton implements Serializable {
+public class Singelton implements Serializable,Cloneable {
 
 	/**
 	 * @auto generated serialVersionUID by JVM
@@ -14,8 +14,10 @@ public class Singelton implements Serializable {
 	private Singelton() {
 	}
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) throws CloneNotSupportedException {
+		SingeltonTest cloneableTest = SingeltonTest.INSTANCE;
+		cloneableTest.clone("");
+
 
 	}
 
@@ -33,4 +35,8 @@ public class Singelton implements Serializable {
 	protected Object readResolve() {
         return getInstanceUsingDoubleLocking();
     }
+	
+	public Object clone() throws CloneNotSupportedException  {
+		return super.clone();
+	}
 }
