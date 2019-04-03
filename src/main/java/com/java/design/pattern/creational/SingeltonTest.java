@@ -17,6 +17,7 @@ public enum SingeltonTest implements Serializable,Cloneable {
 	}
 	//just for understanding
 	public Object clone(String t) throws CloneNotSupportedException {
+		//throw new CloneNotSupportedException(); 
 		return super.clone();
 		
 	}
