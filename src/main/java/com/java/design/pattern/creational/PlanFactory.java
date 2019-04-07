@@ -1,6 +1,6 @@
 package com.java.design.pattern.creational;
 
-public class GetPlanFactory {
+public class PlanFactory {
 
 	// use getPlan method to get object of type Plan
 	public static Plan getPlan(String planType) {
