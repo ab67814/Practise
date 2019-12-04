@@ -11,7 +11,12 @@ public class StreamMap {
 		memberNames.stream().filter((s) -> s.startsWith("m"))
         .map(String::toUpperCase)
         .forEach(System.out::println);
-		memberNames.stream().sorted().forEach(e->System.out.println(e));
+		memberNames.stream().sorted().forEach(System.out::println);
+		
+		long cnt=memberNames.stream()
+        .filter((s) -> s.contains("esh"))
+        .count();
+		System.out.println(cnt);
 	}
 
 }
