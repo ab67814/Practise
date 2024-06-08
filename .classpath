@@ -19,7 +19,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="var" path="ECLIPSE_HOME"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_102">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_251">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
